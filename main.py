@@ -1,5 +1,3 @@
-from datetime import datetime
-
 import logging
 import os
 import json
@@ -36,7 +34,7 @@ def homepage():
     Data = np.array(arr_pred2)
     Data = Data.reshape(1, -1)
 
-    model = tf.keras.models.load_model("mymodel.h5")
+    model = tf.keras.models.load_model("model.h5")
     model.compile(
             optimizer='adam',
             loss='binary_crossentropy',

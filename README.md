@@ -1,2 +1,2 @@
 # Prediction-API
-Machine learning API implementation on cloud
+Machine learning API implementation on cloud using Python Flask

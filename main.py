@@ -34,7 +34,7 @@ def homepage():
     Data = np.array(arr_pred2)
     Data = Data.reshape(1, -1)
 
-    model = tf.keras.models.load_model("model.h5")
+    model = tf.keras.models.load_model("new_model.h5")
     model.compile(
             optimizer='adam',
             loss='binary_crossentropy',
